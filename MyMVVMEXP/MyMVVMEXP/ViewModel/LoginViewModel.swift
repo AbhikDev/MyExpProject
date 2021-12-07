@@ -6,7 +6,6 @@ protocol loginViewModelDelegate{
 }
 class LoginViewModel : NSObject, loginViewModelDelegate {
         
-    
     var loginVCDelegate: LoginViewControllerDelegate?
     private var apiService : ApiService!
     
