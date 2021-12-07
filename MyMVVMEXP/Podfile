@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MyMVVMEXP' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MyMVVMEXP
+
+  target 'MyMVVMEXPTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyMVVMEXPUITests' do
+    # Pods for testing
+  end
+
+end
